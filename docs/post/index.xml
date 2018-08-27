@@ -18,8 +18,7 @@
       
       <guid>http://lancechuang.github.io/lance_blog/post/2018-08-26/</guid>
       <description>題目來自Leetcode
-演算法  stack想法：
-  stack用來存數字、[、以及當有上引號存在stack中時就存英文字母，否則就把英文字母存在結果字串就好 當loop到數字時，因為數字可能有好幾個位數，所以先用變數去存，當碰到 &amp;lsquo;[&amp;rsquo; 時，再把數字先存到stack，接著也存&amp;rsquo;[&amp;lsquo;， 記得將用來存數字的變數清空 當碰到 &amp;lsquo;]&amp;rsquo; 時，開始將括號裡的內容物也就是存在stack的東西pop出來 直到碰到 &amp;lsquo;[&amp;rsquo; 為止，將 &amp;lsquo;[&amp;rsquo; 前面跟的數字對目前引號提出的字母做乘積，做完後由於可能是巢狀結構，像是範例二，所以當stack還有 &amp;lsquo;[&amp;rsquo; 表示是巢狀結構，就要再把目前做完的字母丟回stack，沒有的話就接到結果字串後面  Code def decodeString(self, s): &amp;quot;&amp;quot;&amp;quot; :type s: str :rtype: str &amp;quot;&amp;quot;&amp;quot; if not s: return &amp;quot;&amp;quot; stack, res = [], &amp;quot;&amp;quot; nums = &amp;quot;&amp;quot; for char in s: if char.isdigit(): nums += char elif char == &amp;quot;[&amp;quot;: stack.append(nums) stack.append(char) nums = &amp;quot;&amp;quot; elif &amp;quot;[&amp;quot; in stack and char.</description>
+題目  The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer. You may assume that the input string is always valid; No extra white spaces, square brackets are well-formed, etc. Furthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, k.</description>
     </item>
     
     <item>

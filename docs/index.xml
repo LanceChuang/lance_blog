@@ -115,11 +115,21 @@ Skillset: Python, Spark, Hadoop&lt;/p&gt;
 
 &lt;p&gt;題目來自&lt;a href=&#34;https://leetcode.com/problems/decode-string/&#34; target=&#34;_blank&#34;&gt;Leetcode&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;演算法&#34;&gt;演算法&lt;/h3&gt;
+&lt;h3 id=&#34;題目&#34;&gt;題目&lt;/h3&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;stack想法：&lt;/p&gt;
+&lt;p&gt;The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is
+being repeated exactly k times. Note that k is guaranteed to be a positive integer.
+You may assume that the input string is always valid; No extra white spaces, square brackets are
+well-formed, etc.
+Furthermore, you may assume that the original data does not contain any digits and that digits
+are only for those repeat numbers, k. For example, there won&amp;rsquo;t be input like 3a or 2[4].
+s = &amp;ldquo;3[a]2[bc]&amp;ldquo;, return &amp;ldquo;aaabcbc&amp;rdquo;.
+s = &amp;ldquo;3[a2[c]]&amp;ldquo;, return &amp;ldquo;accaccacc&amp;rdquo;.
+s = &amp;ldquo;2[abc]3[cd]ef&amp;rdquo;, return &amp;ldquo;abcabccdcdcdef&amp;rdquo;.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h3 id=&#34;stack想法&#34;&gt;stack想法：&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;stack用來存數字、[、以及當有上引號存在stack中時就存英文字母，否則就把英文字母存在結果字串就好&lt;/li&gt;
