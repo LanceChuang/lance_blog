@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Mining on Lance Wonderland</title>
+    <link>http://lancechuang.github.io/lance_blog/tags/data-mining/</link>
+    <description>Recent content in Data Mining on Lance Wonderland</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="http://lancechuang.github.io/lance_blog/tags/data-mining/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Movie Recommendation</title>
+      <link>http://lancechuang.github.io/lance_blog/project/movie-recommendation/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/project/movie-recommendation/</guid>
+      <description>Developed a User-based Collaborative Filtering Algorithm with Spark to help recommend suitable movies to customers. By doing so, I discovered frequent movie item sets by implementing Apriori and SON Algorithms.
+A-priori Algorithm is used for frequent item set mining and association rule learning. It proceeds by identifying the frequent individual items in the database and extending them to larger and larger item sets as long as those item sets appear sufficiently often in the database.</description>
+    </item>
+    
+  </channel>
+</rss>
