@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command Line on Lance Wonderland</title>
+    <link>http://lancechuang.github.io/lance_blog/tags/command-line/</link>
+    <description>Recent content in Command Line on Lance Wonderland</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="http://lancechuang.github.io/lance_blog/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unix Command Line</title>
+      <link>http://lancechuang.github.io/lance_blog/post/2018-08-29/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/post/2018-08-29/</guid>
+      <description>ls &amp;gt; stands for &amp;ldquo;list&amp;rdquo; &amp;gt; lists the contents of a directory
+ ls -l &amp;gt; long listing format &amp;gt; gives additional info of files, size, date of last exist&amp;hellip;.
+ ls -lh &amp;gt; long listing format + print human readable format
+ ls -lSh &amp;gt; sorted by the size and then by the date of exist time
+ ls [another directory]
+ cd &amp;gt; change directory
+ pwd &amp;gt; print whole pathname of current directory</description>
+    </item>
+    
+  </channel>
+</rss>

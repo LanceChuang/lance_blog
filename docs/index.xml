@@ -10,6 +10,48 @@
     <atom:link href="/lance_blog/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Unix Command Line</title>
+      <link>http://lancechuang.github.io/lance_blog/post/2018-08-29/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/post/2018-08-29/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ls
+&amp;gt; stands for &amp;ldquo;list&amp;rdquo;
+&amp;gt; lists the contents of a directory&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ls -l
+&amp;gt; long listing format
+&amp;gt; gives additional info of files, size, date of last exist&amp;hellip;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ls -lh
+&amp;gt; long listing format + print human readable format&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ls -lSh
+&amp;gt; sorted by the size and then by the date of exist time&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ls [another directory]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;cd
+&amp;gt; change directory&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;pwd
+&amp;gt; print whole pathname of current directory&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;du
+&amp;gt; displays the disk space used by files&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;df
+&amp;gt; reports amounts of available disk space being used by file systems&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;man
+&amp;gt; manual
+&amp;gt; view system&amp;rsquo;s manuals&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>External Project</title>
       <link>http://lancechuang.github.io/lance_blog/project/example-external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
