@@ -10,6 +10,40 @@
     <atom:link href="/lance_blog/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>2 Sum - Unique Pair</title>
+      <link>http://lancechuang.github.io/lance_blog/post/2018-09-11/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/post/2018-09-11/</guid>
+      <description>
+
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;Given an array of integers, find how many unique pairs in the array such that their sum is equal to a specific target number. Please return the number of pairs.
+
+Example
+Given nums = [1,1,2,45,46,46], target = 47
+return 2
+
+1 + 46 = 47
+2 + 45 = 47 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;想法：要找到所有的不同組合，所以不能用一般hash的方式&lt;/p&gt;
+
+&lt;p&gt;這邊使用 2 pointer解&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;sort arry, 小的部分會在左邊，大的會在右邊&lt;/li&gt;
+&lt;li&gt;設定while條件為left &amp;lt; right，當兩個pointer指的數相加大於target，將右指針向內縮; 若小於target，則往右移動左指針&lt;/li&gt;
+&lt;li&gt;當pointer數加起來等於target，count ++, 左右指針向內縮，因為array有可能會有重複數字且題目是要unique pair，所以要做去重的動作： 若left指向的數和上個一樣，則再往右跑; 若right指向數和上個一樣，則向左跑&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://repl.it/@Ren_HauChuang/2-Sum-Unique-Pair-2sumBian-Hua&#34; target=&#34;_blank&#34;&gt;https://repl.it/@Ren_HauChuang/2-Sum-Unique-Pair-2sumBian-Hua&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Unix Command Line</title>
       <link>http://lancechuang.github.io/lance_blog/post/2018-08-29/</link>
       <pubDate>Wed, 29 Aug 2018 00:00:00 -0700</pubDate>

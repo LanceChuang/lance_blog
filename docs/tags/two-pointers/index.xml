@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Leetcode on Lance Wonderland</title>
-    <link>http://lancechuang.github.io/lance_blog/tags/leetcode/</link>
-    <description>Recent content in Leetcode on Lance Wonderland</description>
+    <title>Two pointers on Lance Wonderland</title>
+    <link>http://lancechuang.github.io/lance_blog/tags/two-pointers/</link>
+    <description>Recent content in Two pointers on Lance Wonderland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Sep 2018 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="http://lancechuang.github.io/lance_blog/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lancechuang.github.io/lance_blog/tags/two-pointers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>Description Given an array of integers, find how many unique pairs in the array such that their sum is equal to a specific target number. Please return the number of pairs. Example Given nums = [1,1,2,45,46,46], target = 47 return 2 1 + 46 = 47 2 + 45 = 47  想法：要找到所有的不同組合，所以不能用一般hash的方式
 這邊使用 2 pointer解
  sort arry, 小的部分會在左邊，大的會在右邊 設定while條件為left &amp;lt; right，當兩個pointer指的數相加大於target，將右指針向內縮; 若小於target，則往右移動左指針 當pointer數加起來等於target，count ++, 左右指針向內縮，因為array有可能會有重複數字且題目是要unique pair，所以要做去重的動作： 若left指向的數和上個一樣，則再往右跑; 若right指向數和上個一樣，則向左跑  https://repl.</description>
-    </item>
-    
-    <item>
-      <title>394. Decode String - Google Amazon Bloomberg Oracle</title>
-      <link>http://lancechuang.github.io/lance_blog/post/2018-08-26/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>http://lancechuang.github.io/lance_blog/post/2018-08-26/</guid>
-      <description>題目來自Leetcode
-題目  The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer. You may assume that the input string is always valid; No extra white spaces, square brackets are well-formed, etc. Furthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, k.</description>
     </item>
     
   </channel>
