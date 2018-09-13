@@ -262,7 +262,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    2 min read
   </span>
   
 
@@ -319,39 +319,271 @@
 
 
     <div class="article-style" itemprop="articleBody">
-      <ul>
-<li><p>ls
-&gt; stands for &ldquo;list&rdquo;
-&gt; lists the contents of a directory</p></li>
+      
 
-<li><p>ls -l
-&gt; long listing format
-&gt; gives additional info of files, size, date of last exist&hellip;.</p></li>
+<ul>
+<li>ls</li>
+</ul>
 
-<li><p>ls -lh
-&gt; long listing format + print human readable format</p></li>
+<blockquote>
+<p>stands for &ldquo;list&rdquo;
+lists the contents of a directory</p>
+</blockquote>
 
-<li><p>ls -lSh
-&gt; sorted by the size and then by the date of exist time</p></li>
+<ul>
+<li>ls -l</li>
+</ul>
 
+<blockquote>
+<p>long listing format
+gives additional info of files, size, date of last exist&hellip;.</p>
+</blockquote>
+
+<ul>
+<li>ls -lh</li>
+</ul>
+
+<blockquote>
+<p>long listing format + print human readable format</p>
+</blockquote>
+
+<ul>
+<li>ls -lSh</li>
+</ul>
+
+<blockquote>
+<p>sorted by the size and then by the date of exist time</p>
+</blockquote>
+
+<ul>
 <li><p>ls [another directory]</p></li>
 
-<li><p>cd
-&gt; change directory</p></li>
-
-<li><p>pwd
-&gt; print whole pathname of current directory</p></li>
-
-<li><p>du
-&gt; displays the disk space used by files</p></li>
-
-<li><p>df
-&gt; reports amounts of available disk space being used by file systems</p></li>
-
-<li><p>man
-&gt; manual
-&gt; view system&rsquo;s manuals</p></li>
+<li><p>cd</p></li>
 </ul>
+
+<blockquote>
+<p>change directory</p>
+</blockquote>
+
+<ul>
+<li>pwd</li>
+</ul>
+
+<blockquote>
+<p>print whole pathname of current directory</p>
+</blockquote>
+
+<ul>
+<li>du</li>
+</ul>
+
+<blockquote>
+<p>displays the disk space used by files</p>
+</blockquote>
+
+<ul>
+<li>df</li>
+</ul>
+
+<blockquote>
+<p>reports amounts of available disk space being used by file systems</p>
+</blockquote>
+
+<ul>
+<li>man:
+manual</li>
+</ul>
+
+<blockquote>
+<p>view system&rsquo;s manuals</p>
+</blockquote>
+
+<ul>
+<li>mkdir</li>
+</ul>
+
+<blockquote>
+<p>make directory</p>
+</blockquote>
+
+<ul>
+<li>cp</li>
+</ul>
+
+<blockquote>
+<p>makes copies of files
+cp SOURCE DIRECTORY</p>
+
+<p>cp -r</p>
+
+<p>copy a whole objects in a directory or folder recursively</p>
+</blockquote>
+
+<ul>
+<li>mv</li>
+</ul>
+
+<p>move or rename files</p>
+
+<blockquote>
+<p>mv SOURCE DIRECTORY</p>
+</blockquote>
+
+<ul>
+<li>touch</li>
+</ul>
+
+<blockquote>
+<p>change file timestamp</p>
+</blockquote>
+
+<ul>
+<li>cat</li>
+</ul>
+
+<blockquote>
+<p>displays the contents of a file
+copies or appends text files into document</p>
+</blockquote>
+
+<ul>
+<li>head</li>
+</ul>
+
+<blockquote>
+<p>prints the first part of files
+default is 10 lines, so we can specify the number by adding like -4 between command and file and then display 4 lines</p>
+</blockquote>
+
+<ul>
+<li>tail</li>
+</ul>
+
+<blockquote>
+<p>prints last part of files</p>
+</blockquote>
+
+<ul>
+<li>more</li>
+</ul>
+
+<blockquote>
+<p>preview content without reading whole file and loading it into memory</p>
+</blockquote>
+
+<ul>
+<li>less</li>
+</ul>
+
+<blockquote>
+<p>displays text, allowing scrolling</p>
+</blockquote>
+
+<ul>
+<li>wc</li>
+</ul>
+
+<blockquote>
+<p>&ldquo;word count&rdquo; prints count of lines</p>
+</blockquote>
+
+<ul>
+<li>grep</li>
+</ul>
+
+<blockquote>
+<p>&ldquo;global regular expression print&rdquo; process text and prints any lines which match a specified pattern</p>
+</blockquote>
+
+<pre><code> grep PATTERN FILE
+</code></pre>
+
+<ul>
+<li>cut</li>
+</ul>
+
+<blockquote>
+<p>drops sections of each line of a file</p>
+</blockquote>
+
+<pre><code> cut FILE
+ cut -d &quot; &quot; -f1 FILE // set the space symbol as delimiter and print out first field of file
+</code></pre>
+
+<ul>
+<li>tr</li>
+</ul>
+
+<blockquote>
+<p>translate one set of character to another (replace)</p>
+</blockquote>
+
+<pre><code>tr [-Ccsu] str1 str2
+cat file.txt | tr ' ' '.'
+</code></pre>
+
+<ul>
+<li>sort</li>
+</ul>
+
+<blockquote>
+<p>sorts the content</p>
+</blockquote>
+
+<ul>
+<li>awk</li>
+</ul>
+
+<blockquote>
+<p>interpreted programming language text processing</p>
+</blockquote>
+
+<h1 id="operators">Operators</h1>
+
+<ul>
+<li>&gt;</li>
+</ul>
+
+<blockquote>
+<p>overwrites the file with the content if it exists or creates it if not exists</p>
+</blockquote>
+
+<ul>
+<li>&gt;&gt;</li>
+</ul>
+
+<blockquote>
+<p>appends to a file</p>
+</blockquote>
+
+<ul>
+<li>|</li>
+</ul>
+
+<blockquote>
+<p>pipe operator, output of first command acts as an input to the second command</p>
+</blockquote>
+
+<h1 id="commands-for-processes-managing">Commands for processes managing</h1>
+
+<ul>
+<li>free</li>
+</ul>
+
+<blockquote>
+<p>displays total amount of free and used memory</p>
+</blockquote>
+
+<pre><code>&gt; free -g # print file sizes in gigabytes
+</code></pre>
+
+<ul>
+<li>top</li>
+</ul>
+
+<blockquote>
+<p>provides a dynamic real-time view of a running system</p>
+</blockquote>
 
     </div>
 

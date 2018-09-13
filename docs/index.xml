@@ -15,39 +15,271 @@
       <pubDate>Wed, 29 Aug 2018 00:00:00 -0700</pubDate>
       
       <guid>http://lancechuang.github.io/lance_blog/post/2018-08-29/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ls
-&amp;gt; stands for &amp;ldquo;list&amp;rdquo;
-&amp;gt; lists the contents of a directory&lt;/p&gt;&lt;/li&gt;
+      <description>
 
-&lt;li&gt;&lt;p&gt;ls -l
-&amp;gt; long listing format
-&amp;gt; gives additional info of files, size, date of last exist&amp;hellip;.&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;ls&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;ls -lh
-&amp;gt; long listing format + print human readable format&lt;/p&gt;&lt;/li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;stands for &amp;ldquo;list&amp;rdquo;
+lists the contents of a directory&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;li&gt;&lt;p&gt;ls -lSh
-&amp;gt; sorted by the size and then by the date of exist time&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;ls -l&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;long listing format
+gives additional info of files, size, date of last exist&amp;hellip;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ls -lh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;long listing format + print human readable format&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ls -lSh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;sorted by the size and then by the date of exist time&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;ls [another directory]&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;cd
-&amp;gt; change directory&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;pwd
-&amp;gt; print whole pathname of current directory&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;du
-&amp;gt; displays the disk space used by files&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;df
-&amp;gt; reports amounts of available disk space being used by file systems&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;man
-&amp;gt; manual
-&amp;gt; view system&amp;rsquo;s manuals&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;cd&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;change directory&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pwd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;print whole pathname of current directory&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;du&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;displays the disk space used by files&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;df&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;reports amounts of available disk space being used by file systems&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;man:
+manual&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;view system&amp;rsquo;s manuals&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mkdir&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;make directory&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;cp&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;makes copies of files
+cp SOURCE DIRECTORY&lt;/p&gt;
+
+&lt;p&gt;cp -r&lt;/p&gt;
+
+&lt;p&gt;copy a whole objects in a directory or folder recursively&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mv&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;move or rename files&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;mv SOURCE DIRECTORY&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;touch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;change file timestamp&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;displays the contents of a file
+copies or appends text files into document&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;head&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;prints the first part of files
+default is 10 lines, so we can specify the number by adding like -4 between command and file and then display 4 lines&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;tail&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;prints last part of files&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;more&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;preview content without reading whole file and loading it into memory&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;less&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;displays text, allowing scrolling&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;wc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;word count&amp;rdquo; prints count of lines&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;grep&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;global regular expression print&amp;rdquo; process text and prints any lines which match a specified pattern&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt; grep PATTERN FILE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;cut&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;drops sections of each line of a file&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt; cut FILE
+ cut -d &amp;quot; &amp;quot; -f1 FILE // set the space symbol as delimiter and print out first field of file
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;tr&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;translate one set of character to another (replace)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;tr [-Ccsu] str1 str2
+cat file.txt | tr &#39; &#39; &#39;.&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;sort&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;sorts the content&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;awk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;interpreted programming language text processing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;operators&#34;&gt;Operators&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;overwrites the file with the content if it exists or creates it if not exists&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;gt;&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;appends to a file&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;|&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;pipe operator, output of first command acts as an input to the second command&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;commands-for-processes-managing&#34;&gt;Commands for processes managing&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;free&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;displays total amount of free and used memory&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; free -g # print file sizes in gigabytes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;top&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;provides a dynamic real-time view of a running system&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
