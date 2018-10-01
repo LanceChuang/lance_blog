@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Algorithms</title>
+      <link>http://lancechuang.github.io/lance_blog/tags/algorithms/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bash</title>
       <link>http://lancechuang.github.io/lance_blog/tags/bash/</link>
       <pubDate>Wed, 29 Aug 2018 00:00:00 -0700</pubDate>
@@ -48,6 +57,15 @@
     </item>
     
     <item>
+      <title>Data Structure</title>
+      <link>http://lancechuang.github.io/lance_blog/tags/data-structure/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/tags/data-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Datastructure</title>
       <link>http://lancechuang.github.io/lance_blog/tags/datastructure/</link>
       <pubDate>Tue, 11 Sep 2018 00:00:00 -0700</pubDate>
@@ -68,9 +86,18 @@
     <item>
       <title>Leetcode</title>
       <link>http://lancechuang.github.io/lance_blog/tags/leetcode/</link>
-      <pubDate>Tue, 11 Sep 2018 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
       
       <guid>http://lancechuang.github.io/lance_blog/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linked List</title>
+      <link>http://lancechuang.github.io/lance_blog/tags/linked-list/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/tags/linked-list/</guid>
       <description></description>
     </item>
     
@@ -80,6 +107,15 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>http://lancechuang.github.io/lance_blog/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree</title>
+      <link>http://lancechuang.github.io/lance_blog/tags/tree/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/tags/tree/</guid>
       <description></description>
     </item>
     

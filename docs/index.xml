@@ -10,6 +10,82 @@
     <atom:link href="/lance_blog/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Convert Sorted List to Binary Search Tree</title>
+      <link>http://lancechuang.github.io/lance_blog/post/2018-09-30/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/post/2018-09-30/</guid>
+      <description>
+
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+Example:
+Given the sorted linked list: [-10,-3,0,5,9],
+One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;      0
+     / \
+   -3   9
+   /   /
+ -10  5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;想法：&lt;/p&gt;
+
+&lt;p&gt;和108 Convert Sorted Array to Binary Search Tree 相似，
+但是List無法直接透過index查找，概念一樣是從中間切一半，用快慢指針找到中間點，並要記錄slow前面一個node, 找到中點後以中點建立根節點root，接著把List斷開，左右兩邊的List都不包含中點，在對兩邊做遞迴
+讓root連上左右兩邊
+因為左邊部分做到最後會是slow == head，要另外設條件說當recursion做到這裡後，要停
+止，右邊因為base case已經有 not head的狀況，所以不用額外再處理了&lt;/p&gt;
+
+&lt;p&gt;Code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution(object):
+    def sortedListToBST(self, head):
+        &amp;quot;&amp;quot;&amp;quot;
+        :type head: ListNode
+        :rtype: TreeNode
+        &amp;quot;&amp;quot;&amp;quot;
+        if not head: return None
+        if not head.next: return TreeNode(head.val)
+        # 用快慢指針找到中點並切斷分為左右子樹
+        prev = slow = fast = head
+        while fast and fast.next:
+            prev = slow
+            slow = slow.next
+            fast = fast.next.next
+            
+        second = slow.next
+        prev.next = None
+        current = TreeNode(slow.val)
+        # if head != slow: # head == slow: 表示左邊沒了
+        current.left = self.sortedListToBST(head)
+        current.right = self.sortedListToBST(second)
+        
+        return current
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2 Sum - Unique Pair</title>
       <link>http://lancechuang.github.io/lance_blog/post/2018-09-11/</link>
       <pubDate>Tue, 11 Sep 2018 00:00:00 -0700</pubDate>

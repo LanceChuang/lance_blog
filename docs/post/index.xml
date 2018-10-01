@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Convert Sorted List to Binary Search Tree</title>
+      <link>http://lancechuang.github.io/lance_blog/post/2018-09-30/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/post/2018-09-30/</guid>
+      <description>Description  Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST. For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1. Example: Given the sorted linked list: [-10,-3,0,5,9], One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:</description>
+    </item>
+    
+    <item>
       <title>2 Sum - Unique Pair</title>
       <link>http://lancechuang.github.io/lance_blog/post/2018-09-11/</link>
       <pubDate>Tue, 11 Sep 2018 00:00:00 -0700</pubDate>
