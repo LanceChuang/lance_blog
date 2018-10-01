@@ -63,7 +63,7 @@ enableGitInfo = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "renhauch@usc.edu"
+  email = "renhau5566@alumni.usc.edu"
   address = "Los Angeles, California, 90007"
   office_hours = "Monday through Friday 10:00 to 18:00 or email for appointment"
   phone = ""
@@ -226,7 +226,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:renhauch@usc.edu"
+    link = "mailto:renhau5566@alumni.usc.edu"
 
   [[params.social]]
     icon = "github"
