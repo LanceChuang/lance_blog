@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structure on Academic</title>
+    <link>/tags/data-structure/</link>
+    <description>Recent content in Data Structure on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 30 Sep 2018 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Convert Sorted List to Binary Search Tree</title>
+      <link>/post/2018-09-30/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/post/2018-09-30/</guid>
+      <description>Description  Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST. For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1. Example: Given the sorted linked list: [-10,-3,0,5,9], One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:</description>
+    </item>
+    
+    <item>
+      <title>394. Decode String - Google Amazon Bloomberg Oracle</title>
+      <link>/post/2018-08-26/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/post/2018-08-26/</guid>
+      <description>題目來自Leetcode
+題目  The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer. You may assume that the input string is always valid; No extra white spaces, square brackets are well-formed, etc. Furthermore, you may assume that the original data does not contain any digits and that digits are only for those repeat numbers, k.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on Academic</title>
+    <link>/tags/bash/</link>
+    <description>Recent content in Bash on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unix Command Line</title>
+      <link>/post/2018-08-29/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/post/2018-08-29/</guid>
+      <description>ls   stands for &amp;ldquo;list&amp;rdquo; lists the contents of a directory
+  ls -l   long listing format gives additional info of files, size, date of last exist&amp;hellip;.
+  ls -lh   long listing format + print human readable format
+  ls -lSh   sorted by the size and then by the date of exist time
+  ls [another directory]</description>
+    </item>
+    
+  </channel>
+</rss>

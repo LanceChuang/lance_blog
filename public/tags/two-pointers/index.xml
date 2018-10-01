@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>two pointers on Academic</title>
+    <link>/tags/two-pointers/</link>
+    <description>Recent content in two pointers on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 11 Sep 2018 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/two-pointers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2 Sum - Unique Pair</title>
+      <link>/post/2018-09-11/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/post/2018-09-11/</guid>
+      <description>Description Given an array of integers, find how many unique pairs in the array such that their sum is equal to a specific target number. Please return the number of pairs. Example Given nums = [1,1,2,45,46,46], target = 47 return 2 1 + 46 = 47 2 + 45 = 47  想法：要找到所有的不同組合，所以不能用一般hash的方式
+這邊使用 2 pointer解
+ sort arry, 小的部分會在左邊，大的會在右邊 設定while條件為left &amp;lt; right，當兩個pointer指的數相加大於target，將右指針向內縮; 若小於target，則往右移動左指針 當pointer數加起來等於target，count ++, 左右指針向內縮，因為array有可能會有重複數字且題目是要unique pair，所以要做去重的動作： 若left指向的數和上個一樣，則再往右跑; 若right指向數和上個一樣，則向左跑  https://repl.</description>
+    </item>
+    
+  </channel>
+</rss>
