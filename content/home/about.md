@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Software Engineering",
-    "Data Engineer",
+    "Data Engineering",
     "Data Analysis",
     "Information Retrieval"
   ]
