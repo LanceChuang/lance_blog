@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 06 Nov 2018 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://lancechuang.github.io/lance_blog/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>124. Binary Tree Maximum Path Sum</title>
+      <link>http://lancechuang.github.io/lance_blog/post/2018-11-06/</link>
+      <pubDate>Tue, 06 Nov 2018 00:00:00 -0800</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/post/2018-11-06/</guid>
+      <description>題目來自Leetcode
+題目 Given a non-empty binary tree, find the maximum path sum.
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+Example 1:
+Input: [1,2,3]
+ 1 / \ 2 3  Output: 6 Example 2:</description>
+    </item>
     
     <item>
       <title>Minimum Path Sum</title>

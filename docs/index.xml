@@ -11,6 +11,84 @@
     <atom:link href="/lance_blog/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>124. Binary Tree Maximum Path Sum</title>
+      <link>http://lancechuang.github.io/lance_blog/post/2018-11-06/</link>
+      <pubDate>Tue, 06 Nov 2018 00:00:00 -0800</pubDate>
+      
+      <guid>http://lancechuang.github.io/lance_blog/post/2018-11-06/</guid>
+      <description>
+
+&lt;p&gt;題目來自&lt;a href=&#34;https://leetcode.com/problems/binary-tree-maximum-path-sum/description/&#34; target=&#34;_blank&#34;&gt;Leetcode&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;題目&#34;&gt;題目&lt;/h3&gt;
+
+&lt;p&gt;Given a non-empty binary tree, find the maximum path sum.&lt;/p&gt;
+
+&lt;p&gt;For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.&lt;/p&gt;
+
+&lt;p&gt;Example 1:&lt;/p&gt;
+
+&lt;p&gt;Input: [1,2,3]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   1
+  / \
+ 2   3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Output: 6
+Example 2:&lt;/p&gt;
+
+&lt;p&gt;Input: [-10,9,20,null,null,15,7]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   -10
+   / \
+  9  20
+    /  \
+   15   7
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Output: 42&lt;/p&gt;
+
+&lt;h3 id=&#34;bottom-up遞迴想法&#34;&gt;bottom-up遞迴想法&lt;/h3&gt;
+
+&lt;p&gt;path sum的延伸，每條路徑只能走過一次，那麼一個node的最大和肯定為其左右子樹的最大加上本身node.val，左邊路徑的最大和為左節點值加上其左右路徑最大和，右邊路徑亦然
+tricky part:若有負的情況，為了不讓node被負數拖累，每次得到左右子樹最大值時，先讓他們跟0比較，這樣就可以去掉負數的影響，保留node的值&lt;/p&gt;
+
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-Python&#34;&gt;# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution(object):
+    def maxPathSum(self, root):
+        &amp;quot;&amp;quot;&amp;quot;
+        :type root: TreeNode
+        :rtype: int
+        &amp;quot;&amp;quot;&amp;quot;
+        def helper(root):
+            if not root:
+                return 0
+            # 若遇到負數，需要過濾下面的答案，才不會讓root.val越加越小
+            L = max(0, helper(root.left))
+            R = max(0, helper(root.right))
+            
+            Sum = root.val + L + R
+            self.Max = max(self.Max, Sum)
+            return root.val + max(L, R) # return local maximum + root
+        
+        if not root: return 0
+        self.Max = float(&amp;quot;-inf&amp;quot;)
+        helper(root)
+        return self.Max
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Minimum Path Sum</title>
       <link>http://lancechuang.github.io/lance_blog/post/2018-10-07/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 -0700</pubDate>
